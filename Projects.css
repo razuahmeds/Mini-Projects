@@ -293,6 +293,9 @@ nav>button {
     display: flex;
     justify-content: space-between;
 }
+#main-heading-h1 {
+  padding-top: 20px ;
+}
 #main-heading-h1::after{
     content: "";
     display: block;
@@ -323,6 +326,7 @@ nav>button {
     padding: 20px;
 }
 #about-text>h1{
+  
     font-size: 40px;
     font-family: initial;
 
@@ -460,5 +464,106 @@ nav>button {
     #about-dedicated-container>div {
         width: 90%;
         margin-bottom: 20px;
+    }
+}
+
+
+#footer {
+    background-color: #131212;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#footer p {
+    margin: 20PX;
+    font-size: 14px;
+}
+#footer-content > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#twitter-button {
+    background-color: #1DA1F2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#twitter-button:hover {
+    background-color: #0d8ddf;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: #000000 0px 10px 20px;
+}
+#linkedin-button {
+    background-color: #0077B5;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#linkedin-button:hover {
+    background-color: #005582;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: #000000 0px 10px 20px;
+}
+#portfolio-button {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#portfolio-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: #000000 0px 10px 20px;
+}
+
+
+
+#footer a {
+  color: #020202;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+    #footer-content > ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #twitter-button, #linkedin-button, #portfolio-button {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #footer-content > ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #twitter-button, #linkedin-button, #portfolio-button {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #footer-content > ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #twitter-button, #linkedin-button, #portfolio-button {
+        margin-bottom: 10px;
     }
 }
