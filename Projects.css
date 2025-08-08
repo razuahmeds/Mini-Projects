@@ -567,3 +567,64 @@ nav>button {
         margin-bottom: 10px;
     }
 }
+
+
+/* Our Clients Speak Highly  */
+
+
+#highly {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#highly h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#highly p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 1280px) {
+    #highly {
+        padding: 30px;
+    }
+    #highly h2 {
+        font-size: 32px;
+    }
+    #highly p {
+        font-size: 16px;
+        max-width: 600px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    #highly {
+        padding: 20px;
+    }
+    #highly h2 {
+        font-size: 28px;
+    }
+    #highly p {
+        font-size: 14px;
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 430px) {
+    #highly {
+        padding: 10px;
+    }
+    #highly h2 {
+        font-size: 24px;
+    }
+    #highly p {
+        font-size: 12px;
+        max-width: 300px;
+    }
+    
+}
